@@ -24,7 +24,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="{{ asset('/css/styles.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('/css/styles.css') }}" rel="stylesheet">
 
 </head>
 
@@ -83,7 +83,7 @@
   </footer>
 
   <!-- Main JS File -->
-  <script src="{{ asset('/js/main.js') }}"></script>
+  <script src="{{ secure_asset('/js/main.js') }}"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   
