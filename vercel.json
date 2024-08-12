@@ -18,7 +18,9 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://detik-travel.vercel.app/",
+        "APP_URL": "https://detik-travel-ten.vercel.app/",
+        "APP_KEY": "base64:vf8IY6T8qAVYWoCDMqZojnRgzBtijBMs0l9NW0YttG8=",
+
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
